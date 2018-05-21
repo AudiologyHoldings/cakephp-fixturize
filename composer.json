@@ -1,5 +1,5 @@
 {
-  "name": "lorenzo/cakephp-fixturize",
+  "name": "audiologoyholdings/cakephp-fixturize",
   "description": "Provides custom Fixture classes to help managing test fixtures in pure SQL",
   "type": "cakephp-plugin",
   "keywords": ["cakephp", "test", "fixture", "testsuite"],
