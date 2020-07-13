@@ -157,7 +157,7 @@ class TableCopyTestFixture extends CakeTestFixture {
  */
 	protected function _hash($db) {
 		$db_conn = $db->getConnection();
-		$sth = $db_conn->prepare("CHECKSUM TABLE " . $this->table);
+        $sth = $db_conn->prepare("CHECKSUM TABLE `" . $this->table . "`");
 		$sth->execute();
 		$result = $sth->fetch(PDO::FETCH_ASSOC);
 		$sth->closeCursor();
